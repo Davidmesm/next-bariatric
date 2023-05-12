@@ -1,5 +1,4 @@
 import { LoginPageForm, LoginPageTitle } from "@/features/auth/components"
-import { LoginFormType } from '../../../features/auth/types/index';
 
 
 export interface ILoginPageProps {

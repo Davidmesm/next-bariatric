@@ -57,7 +57,7 @@ export default function LoginPageForm(props: ILoginPageFormProps) {
         />
         <div className="flex items-center justify-between">
           <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mx-auto"
+            className="bg-gray-700 hover:bg-gray-900 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline mx-auto"
             type="submit"
           >
             Entrar
