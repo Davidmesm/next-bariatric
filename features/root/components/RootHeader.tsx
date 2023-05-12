@@ -21,13 +21,14 @@ export default function RootHeader (props: IRootHeaderProps) {
           <Image
             src="/BariatricLogo.png"
             alt="Logo"
-            width={30}
-            height={30}
+            width={20}
+            height={20}
             style={{ width: "100%", height: "auto" }}
+            className="mr-4"
           />
           <h1 className="text-xl font-bold whitespace-nowrap">Bariatric</h1>
         </div>
-        <button className="md:hidden" onClick={handleOnNavButtonClick}>
+        <button type="button" className="md:hidden" onClick={handleOnNavButtonClick}>
           <Bars3Icon className="h-6 w-6"/>
         </button>
       </header>
