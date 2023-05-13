@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function LoginPageTitle () {
   return (
-    <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8 flex justify-center items-center">
+    <div className="max-w-7xl mx-auto pb-6 px-4 sm:px-6 lg:px-8 flex justify-center items-center">
         <div>
           <Image
             src="/BariatricLogo.png"
             alt="Logo"
-            width={60}
-            height={60}
+            width={50}
+            height={50}
             style={{ width: '100%', height: 'auto' }}
           />
         </div>
