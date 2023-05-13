@@ -35,7 +35,7 @@ export default function RootNav(props: IRootNavProps) {
       className={
         "sm:block bg-gray-200 text-gray-800 h-full w-full sm:w-80 " + hidden
       }
-      style={{ height: "calc(100vh - 50px)", overflowY: "auto" }}
+      style={{ height: "calc(100vh - 52px)", overflowY: "auto" }}
     >
       <nav className="mt-5">
         <ul className="text-base font-semibold">
